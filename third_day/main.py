@@ -4,7 +4,12 @@ import os
 from datetime import datetime, timezone, timedelta
 import time
 
-API_KEY = '0acf739a675f79db70dadeaecf51df94'
+# Load variables from .env file
+load_dotenv()
+
+# Access the API key from environment variables
+API_KEY = os.getenv('GNEWS_API_KEY')
+
 COUNTRIES = {'np': 'Nepal', 'in': 'India', 'us': 'USA', 'gb': 'UK', 'au': 'Australia'}
 MAIN_CSV = 'all_headlines.csv'
 FILTERED_CSV = 'filtered_headlines.csv'
