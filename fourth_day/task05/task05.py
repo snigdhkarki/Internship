@@ -69,7 +69,7 @@ def run_analysis(conn):
 
         # Query 3: Search for specific keyword frequency
         print("\n--- Analysis 3: Posts containing 'voluptas' ---")
-        cursor.execute("SELECT COUNT(*) FROM posts WHERE body LIKE '%voluptas%'")
+        cursor.execute("SELECT COUNT(*) FROM posts WHERE body LIKE '%voluptas%'") 
         results['keyword_match'] = cursor.fetchone()
         print(f"Found {results['keyword_match'][0]} posts containing the keyword.")
 

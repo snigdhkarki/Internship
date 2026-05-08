@@ -1,4 +1,3 @@
--- 1. Create a table (SQLite doesn't need a CREATE DATABASE command, the file IS the database)
 CREATE TABLE IF NOT EXISTS books (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
@@ -8,7 +7,6 @@ CREATE TABLE IF NOT EXISTS books (
     rating REAL
 );
 
--- 2. Insert at least 8 books
 INSERT INTO books (title, author, year, genre, rating) VALUES 
 ('The Martian', 'Andy Weir', 2011, 'Science Fiction', 4.8),
 ('1984', 'George Orwell', 1949, 'Fiction', 4.6),
