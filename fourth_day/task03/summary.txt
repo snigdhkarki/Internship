@@ -1,0 +1,18 @@
+WEATHER ANALYSIS REPORT
+=======================
+
+Query 1: City with highest avg max temp: Pokhara (26.13°C)
+
+Query 2: Hottest day: Pokhara on 2026-05-06 (28.5°C)
+
+Query 3: Days with temp difference > 10°C:
+ - Kathmandu (2026-05-04): 11.30°C
+ - Kathmandu (2026-05-06): 11.20°C
+ - Pokhara (2026-05-02): 11.10°C
+ - Pokhara (2026-05-04): 10.80°C
+ - Pokhara (2026-05-05): 11.60°C
+ - Pokhara (2026-05-06): 12.30°C
+ - Pokhara (2026-05-07): 12.60°C
+ - Lalitpur (2026-05-04): 11.70°C
+ - Lalitpur (2026-05-06): 10.70°C
+ - Lalitpur (2026-05-07): 10.30°C
