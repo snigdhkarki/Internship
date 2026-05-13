@@ -1,0 +1,51 @@
+user_id,first_name,last_name,email,age,registration_date,phone,full_name,age_category,ingested_at
+0bb4c4ac-63c4-4fd9-bdcc-985eccde03f7,Amelia,Reyes,amelia.reyes@example.com,60,2019-12-14 06:55:27.670,(888) 229-4751,Amelia Reyes,Senior,2026-05-13 09:09:20.852755
+26f8ba4a-486b-4218-9adc-df239d1503f7,Antonio,Moksnes,antonio.moksnes@example.com,42,2013-05-11 19:22:20.335,82245342,Antonio Moksnes,Adult,2026-05-13 09:09:20.852755
+b8ae3478-4633-45d2-8870-927064a6e691,Jagat,Almeida,jagat.almeida@example.com,69,2018-01-17 11:56:34.179,7923065065,Jagat Almeida,Senior,2026-05-13 09:09:20.852755
+f7a7f2a9-3c93-4f35-8991-a92547e46c1a,Zlata,Mikolenko,zlata.mikolenko@example.com,59,2019-07-19 00:01:55.510,(096) T72-0613,Zlata Mikolenko,Senior,2026-05-13 09:09:20.852755
+0159e42d-8bef-459a-b409-2e32b0d99f01,Luukas,Lehtonen,luukas.lehtonen@example.com,64,2005-08-07 11:49:36.809,09-688-211,Luukas Lehtonen,Senior,2026-05-13 09:09:20.852755
+6d67bc40-9251-498d-8da2-518765fc81de,Hudson,Wong,hudson.wong@example.com,70,2021-03-29 15:10:52.291,M54 H97-8868,Hudson Wong,Senior,2026-05-13 09:09:20.852755
+cfabcb88-425f-49dd-822e-b0b0ba6136f7,سپهر,كامياران,sphr.kmyrn@example.com,70,2007-10-26 18:18:52.186,062-77245090,سپهر كامياران,Senior,2026-05-13 09:09:20.852755
+4bb6d433-b4ba-4b6c-bf47-974ecee9ca18,Annamaria,Carpentier,annamaria.carpentier@example.com,72,2022-03-10 13:53:20.746,075 647 97 15,Annamaria Carpentier,Senior,2026-05-13 09:09:20.852755
+25398927-8bc9-4ba0-a848-4760baa4341a,Suzanne,Cunningham,suzanne.cunningham@example.com,27,2003-01-03 15:45:59.110,019467 23601,Suzanne Cunningham,Young Adult,2026-05-13 09:09:20.852755
+c4691f12-4e9c-45a0-b2f1-288297ef67d0,Hector,Murray,hector.murray@example.com,46,2007-04-03 07:51:33.122,04-0723-1580,Hector Murray,Adult,2026-05-13 09:09:20.852755
+0017ec2f-950a-46bf-b29f-2d677b1ea4b5,Rowen,Van Wees,rowen.vanwees@example.com,36,2003-12-27 19:02:51.250,(0302) 801871,Rowen Van Wees,Adult,2026-05-13 09:09:20.852755
+f527ee32-88db-4253-b475-7a9df2ef06f8,Gene,Obrien,gene.obrien@example.com,50,2009-02-06 17:54:03.040,(721) 382-1168,Gene Obrien,Senior,2026-05-13 09:09:20.852755
+31a418f5-be7b-4ba4-a8ea-ca5f17e5b03d,Kati,Schramm,kati.schramm@example.com,57,2015-08-17 09:37:13.141,0301-2833297,Kati Schramm,Senior,2026-05-13 09:09:20.852755
+efa5f683-eae6-4323-b59f-5c1dc2467b41,Tracy,Nguyen,tracy.nguyen@example.com,31,2010-10-13 05:14:09.573,017684 08351,Tracy Nguyen,Adult,2026-05-13 09:09:20.852755
+55178368-a457-4a9e-a607-e0eb3934a126,Jorge,Hamilton,jorge.hamilton@example.com,35,2008-06-09 12:16:02.074,041-782-1625,Jorge Hamilton,Adult,2026-05-13 09:09:20.852755
+542a91eb-b9cc-4a3a-a046-acf69ff0128c,Vladoje,Miljković,vladoje.miljkovic@example.com,76,2017-11-25 16:27:58.517,019-3282-129,Vladoje Miljković,Senior,2026-05-13 09:09:20.852755
+4be8e931-70b4-4538-90c0-dbbeff4d5c48,Ben,Wood,ben.wood@example.com,30,2004-10-29 01:02:48.853,019467 99627,Ben Wood,Adult,2026-05-13 09:09:20.852755
+cb6cec6d-9876-47a4-9baf-2620c13a617e,ثنا,کوتی,thn.khwty@example.com,69,2019-02-02 06:36:15.660,095-88729268,ثنا کوتی,Senior,2026-05-13 09:09:20.852755
+37503d01-ec2c-4291-b09d-73cb22b15f56,Lotta,Salminen,lotta.salminen@example.com,50,2006-09-15 01:22:30.555,06-053-868,Lotta Salminen,Senior,2026-05-13 09:09:20.852755
+70729ec3-e96d-4894-a585-4b422d412acd,Mikail,Lundby,mikail.lundby@example.com,61,2004-12-25 22:04:17.549,28905777,Mikail Lundby,Senior,2026-05-13 09:09:20.852755
+bfe43d03-c8cb-43f5-b0bb-a000519732f6,سوگند,حسینی,swgnd.hsyny@example.com,81,2003-12-28 11:59:15.625,024-67138323,سوگند حسینی,Senior,2026-05-13 09:09:20.852755
+6023c564-fbc5-409c-8df7-bfa6cd8e1bd3,Sethu,Shetty,sethu.shetty@example.com,33,2014-12-13 20:10:15.222,7396877256,Sethu Shetty,Adult,2026-05-13 09:09:20.852755
+bdd38e96-e603-4395-8fd5-bd19be6f2578,Elisa,Hernández,elisa.hernandez@example.com,66,2002-08-01 04:47:28.936,944-729-781,Elisa Hernández,Senior,2026-05-13 09:09:20.852755
+0cc67dbe-dc14-4e73-be6d-e0d36adf9f9e,Eva,Reyes,eva.reyes@example.com,64,2004-11-10 20:16:36.209,013873 36392,Eva Reyes,Senior,2026-05-13 09:09:20.852755
+22651132-061c-4b30-b73d-0cd1ae64d690,Helmi,Tuomala,helmi.tuomala@example.com,53,2014-03-22 15:25:06.060,04-313-216,Helmi Tuomala,Senior,2026-05-13 09:09:20.852755
+81950658-3ac2-4543-bd7c-c2d51307fce9,Adela,Griego,adela.griego@example.com,35,2005-11-23 16:42:37.329,(606) 289 7897,Adela Griego,Adult,2026-05-13 09:09:20.852755
+853ce7bc-7077-4138-b9c7-5d4b8bd43a49,Miguel,Powell,miguel.powell@example.com,75,2013-04-20 06:40:27.289,051-968-3754,Miguel Powell,Senior,2026-05-13 09:09:20.852755
+a9d45e2d-20f1-4d6e-a397-998522e59e0f,Cecilia,Saiz,cecilia.saiz@example.com,59,2021-04-06 06:59:37.727,(678) 610 4850,Cecilia Saiz,Senior,2026-05-13 09:09:20.852755
+01cc2f63-d314-4e64-87e0-145563e38c37,Nanna,Poulsen,nanna.poulsen@example.com,52,2003-04-25 20:19:44.267,23052371,Nanna Poulsen,Senior,2026-05-13 09:09:20.852755
+f5fa8622-1bf0-4303-a949-e22e8e90c1b8,Velichko,Lisnichiy,velichko.lisnichiy@example.com,75,2020-08-06 00:01:31.391,(068) K76-4324,Velichko Lisnichiy,Senior,2026-05-13 09:09:20.852755
+39930c0c-a03b-4f33-812c-1f21f52fc700,سینا,مرادی,syn.mrdy@example.com,56,2005-06-02 08:45:22.692,022-44143314,سینا مرادی,Senior,2026-05-13 09:09:20.852755
+dae1d584-30a4-4e05-a983-f549b76337d0,Phoebe,Carr,phoebe.carr@example.com,45,2004-10-06 07:56:49.304,021-013-6148,Phoebe Carr,Adult,2026-05-13 09:09:20.852755
+abfd85ab-8af2-4021-929f-ea4b55527df1,Pierre-Alain,Riviere,pierre-alain.riviere@example.com,38,2015-09-19 16:57:31.338,075 789 35 85,Pierre-Alain Riviere,Adult,2026-05-13 09:09:20.852755
+13277ff8-09b5-4eeb-a12e-c8c7ee08aab0,Jaxon,Jackson,jaxon.jackson@example.com,58,2014-12-09 20:50:30.121,(730)-356-9198,Jaxon Jackson,Senior,2026-05-13 09:09:20.852755
+d9f8ddc4-e3bc-4919-9539-b85e8d0ed90e,Christina,Smith,christina.smith@example.com,58,2014-12-27 03:23:41.359,021-054-9684,Christina Smith,Senior,2026-05-13 09:09:20.852755
+50d60b74-1248-43f9-886e-ade4b98559c6,Gökhan,Mayhoş,gokhan.mayhos@example.com,49,2017-01-04 05:53:15.611,(011)-801-8828,Gökhan Mayhoş,Adult,2026-05-13 09:09:20.852755
+0450bece-9828-4cbd-b635-292de18bcc32,Heinz-Willi,Moldenhauer,heinz-willi.moldenhauer@example.com,58,2004-02-28 00:37:11.148,0264-4879176,Heinz-Willi Moldenhauer,Senior,2026-05-13 09:09:20.852755
+d9769981-f163-425c-a1aa-7c14f05c0174,Pihla,Aro,pihla.aro@example.com,48,2010-08-25 09:20:58.068,05-431-695,Pihla Aro,Adult,2026-05-13 09:09:20.852755
+c16d5467-5016-440a-88bb-ee3b2a928ed1,Marcia,Fernandez,marcia.fernandez@example.com,80,2017-04-21 01:32:51.845,09-5128-8959,Marcia Fernandez,Senior,2026-05-13 09:09:20.852755
+e8629eda-924f-4aec-b48a-d330b6118f06,Liselotte,Schwarzkopf,liselotte.schwarzkopf@example.com,74,2009-11-27 14:22:12.376,0974-3682413,Liselotte Schwarzkopf,Senior,2026-05-13 09:09:20.852755
+5b8d12f4-4f46-4c5e-a514-8f631b42bc78,Helmi,Ahola,helmi.ahola@example.com,53,2005-03-16 19:45:16.030,09-247-811,Helmi Ahola,Senior,2026-05-13 09:09:20.852755
+f67b3fbd-2c44-4b21-b5ba-7d131606d5b0,Ronnie,Martinez,ronnie.martinez@example.com,59,2009-10-21 00:09:56.664,013873 01973,Ronnie Martinez,Senior,2026-05-13 09:09:20.852755
+52b4139c-a49d-473f-8429-4e626c8c5238,Belén,Lozano,belen.lozano@example.com,65,2014-05-29 01:06:27.394,949-685-049,Belén Lozano,Senior,2026-05-13 09:09:20.852755
+dd8575fc-7f3f-4a63-9acb-f2c5a4f4409b,Soledad,Navarro,soledad.navarro@example.com,65,2021-10-08 08:39:21.567,931-956-300,Soledad Navarro,Senior,2026-05-13 09:09:20.852755
+11ea5db3-62ef-4125-8e76-2a833d88fff5,Isla,Perko,isla.perko@example.com,31,2016-08-19 08:44:15.357,08-679-978,Isla Perko,Adult,2026-05-13 09:09:20.852755
+d577b6c2-a7a3-4189-b3a6-47cb27fee532,Sylvain,Bourgeois,sylvain.bourgeois@example.com,44,2019-05-22 04:12:21.134,078 530 93 97,Sylvain Bourgeois,Adult,2026-05-13 09:09:20.852755
+fcb1455f-4ed4-4479-850e-0012dc25df79,Morris,Ryan,morris.ryan@example.com,63,2014-02-26 02:28:05.521,015394 79226,Morris Ryan,Senior,2026-05-13 09:09:20.852755
+51533afa-dd68-4a8a-906d-d0e884262898,Nancy,Rocha,nancy.rocha@example.com,76,2003-11-04 15:10:00.795,(681) 043 3397,Nancy Rocha,Senior,2026-05-13 09:09:20.852755
+8827d220-93ef-4cdf-bbb7-7d01f53d1c5d,Nina,Nguyen,nina.nguyen@example.com,47,2005-12-23 19:31:32.569,04-97-48-11-84,Nina Nguyen,Adult,2026-05-13 09:09:20.852755
+9b981bbd-234a-4ec1-9639-3b6cd41819fa,Laila,Willassen,laila.willassen@example.com,46,2019-12-04 02:52:29.713,70579294,Laila Willassen,Adult,2026-05-13 09:09:20.852755
