@@ -1,0 +1,31 @@
+id,title,category,price,discountPercentage,discount_amount,final_price,stock,stock_status
+1,Essence Mascara Lash Princess,Beauty,9.99,10.48,1.05,8.94,99,Healthy
+2,Eyeshadow Palette with Mirror,Beauty,19.99,18.19,3.64,16.35,34,Healthy
+3,Powder Canister,Beauty,14.99,9.84,1.48,13.51,89,Healthy
+4,Red Lipstick,Beauty,12.99,12.16,1.58,11.41,91,Healthy
+5,Red Nail Polish,Beauty,8.99,11.44,1.03,7.96,79,Healthy
+6,Calvin Klein CK One,Fragrances,49.99,1.89,0.94,49.05,29,Healthy
+7,Chanel Coco Noir Eau De,Fragrances,129.99,16.51,21.46,108.53,58,Healthy
+8,Dior J'adore,Fragrances,89.99,14.72,13.25,76.74,98,Healthy
+9,Dolce Shine Eau de,Fragrances,69.99,0.62,0.43,69.56,4,Critical/Low
+10,Gucci Bloom Eau de,Fragrances,79.99,14.39,11.51,68.48,91,Healthy
+11,Annibale Colombo Bed,Furniture,1899.99,8.57,162.83,1737.16,88,Healthy
+12,Annibale Colombo Sofa,Furniture,2499.99,14.4,360.0,2139.99,60,Healthy
+13,Bedside Table African Cherry,Furniture,299.99,19.09,57.27,242.72,64,Healthy
+14,Knoll Saarinen Executive Conference Chair,Furniture,499.99,2.01,10.05,489.94,26,Healthy
+15,Wooden Bathroom Sink With Mirror,Furniture,799.99,8.8,70.4,729.59,7,Critical/Low
+16,Apple,Groceries,1.99,12.62,0.25,1.74,8,Critical/Low
+17,Beef Steak,Groceries,12.99,9.61,1.25,11.74,86,Healthy
+18,Cat Food,Groceries,8.99,9.58,0.86,8.13,46,Healthy
+19,Chicken Meat,Groceries,9.99,13.7,1.37,8.62,97,Healthy
+20,Cooking Oil,Groceries,4.99,9.33,0.47,4.52,10,Critical/Low
+21,Cucumber,Groceries,1.49,0.16,0.0,1.49,84,Healthy
+22,Dog Food,Groceries,10.99,10.27,1.13,9.86,71,Healthy
+23,Eggs,Groceries,2.99,11.05,0.33,2.66,9,Critical/Low
+24,Fish Steak,Groceries,14.99,4.23,0.63,14.36,74,Healthy
+25,Green Bell Pepper,Groceries,1.29,0.16,0.0,1.29,33,Healthy
+26,Green Chili Pepper,Groceries,0.99,1.0,0.01,0.98,3,Critical/Low
+27,Honey Jar,Groceries,6.99,14.4,1.01,5.98,34,Healthy
+28,Ice Cream,Groceries,5.49,8.69,0.48,5.01,27,Healthy
+29,Juice,Groceries,3.99,12.06,0.48,3.51,50,Healthy
+30,Kiwi,Groceries,2.49,15.22,0.38,2.11,99,Healthy

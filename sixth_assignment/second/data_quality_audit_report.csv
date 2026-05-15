@@ -1,0 +1,7 @@
+Metric,Before Cleaning,After Cleaning,Issues Fixed
+Total Rows,102,95,N/A
+Total Nulls,3,0,3
+Duplicate Rows,2,0,N/A
+Type Mismatches,1,0,1
+Out-of-Range (id <= 0),1,0,1
+Inconsistent Strings (ALL CAPS),1,0,1
