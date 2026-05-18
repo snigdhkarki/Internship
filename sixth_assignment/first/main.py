@@ -88,7 +88,7 @@ df_merged.loc[df_merged['salary'] < 0, 'salary'] = np.nan
 # 6. Nulls: Impute missing numerical data with medians, categorical with 'Unknown'
 df_merged['age'] = df_merged['age'].fillna(df_merged['age'].median())
 df_merged['salary'] = df_merged['salary'].fillna(df_merged['salary'].median())
-df_merged['city'] = df_merged['city'].replace('nan', 'Unknown') # Clean up string 'nan' from whitespace step
+df_merged['city'] = df_merged['city'].replace('nan', 'Unknown') 
 df_merged['city'] = df_merged['city'].fillna('Unknown')
 
 print("\n--- Cleaned & Merged DataFrame ---")

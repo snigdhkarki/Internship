@@ -1,0 +1,7 @@
+Key Findings & Observations
+1) The "Combined" Trap: Putting all the cities into one histogram completely ruins any chance of a clean bell curve. You get multiple random peaks (a multimodal distribution) simply because you're forcing vastly different climates—like desert heat and chilly maritime weather—into the exact same bucket.
+2) Steady vs. Wild Swings: The KDE curves reveal exactly how volatile each city is. Places with ocean-regulated climates (like London) have very tall, narrow curves, meaning their weather stays highly predictable. Shifting continental or desert climates have wide, flat curves, showing a much broader temperature swing.
+3) No Real Outliers: Even using the strict $1.5 \times IQR$ rule, you won't find many true statistical outliers in a standard 7-day window. Weather moves in broader weekly systems, so a single day rarely behaves like a wild anomaly unless a massive storm front hits.
+4) Clean, Symmetric Data: For most of these cities, the mean and median numbers are practically identical (well within 1°C). When those two metrics line up that perfectly, it tells you the weekly data is beautifully balanced with no weird, one-off spikes pulling the average away.
+5) The Rain Effect (Bonus): If you layer the rainfall data over the temperature charts, a clear pattern jumps out: rainy days equal flatlined temperatures. The heavy cloud cover blocks the sun and the evaporation keeps things cool, which instantly shrinks the temperature variance for that city.
+
