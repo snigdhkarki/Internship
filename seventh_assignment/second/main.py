@@ -10,7 +10,6 @@ import requests
 # ==========================================
 print("Step 1: Fetching 7-day weather data from Open-Meteo API...")
 
-# Define 5 diverse global cities with their coordinates
 cities = {
     "New York": {"lat": 40.7128, "lon": -74.0060},
     "London": {"lat": 51.5074, "lon": -0.1278},
@@ -23,7 +22,6 @@ cities = {
 conn = sqlite3.connect('weather.db')
 cursor = conn.cursor()
 
-# Reset table for clean execution
 cursor.execute('DROP TABLE IF EXISTS weather')
 cursor.execute('''
     CREATE TABLE weather (
@@ -35,7 +33,6 @@ cursor.execute('''
     )
 ''')
 
-# Loop through cities, fetch forecast, and insert into DB
 for city_name, coords in cities.items():
     url = f"https://api.open-meteo.com/v1/forecast?latitude={coords['lat']}&longitude={coords['lon']}&daily=temperature_2m_max,temperature_2m_min,rain_sum&timezone=auto"
     response = requests.get(url).json()
@@ -84,7 +81,7 @@ plt.close()
 # ==========================================
 # STEP 4: Side-by-Side Box Plots
 # ==========================================
-print("Step 4: Generating Side-by-Side Box Plots...")
+print("Step 4:rs each box plot according to its regional location, then hides the resulting duplicate tracking chart legend box since the horizont Generating Side-by-Side Box Plots...")
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='city', y='max_temp', data=df, palette='Set2')
 plt.title('Max Temperature Comparison Across 5 Cities', fontsize=14, fontweight='bold')
@@ -108,7 +105,7 @@ for city in df['city'].unique():
     
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
-    
+    df[numeric_cols].hist(bins=20, edgecolor='black', figsize=(12, 8))
     # Filter records outside limits
     city_outliers = city_data[(city_data['max_temp'] < lower_bound) | (city_data['max_temp'] > upper_bound)]
     outliers_df = pd.concat([outliers_df, city_outliers])
@@ -148,7 +145,6 @@ print("Bonus Step: Generating Rainfall Evaluation Chart...")
 plt.figure(figsize=(10, 6))
 sns.barplot(x='city', y='rainfall', data=df, estimator=sum, errorbar=None, palette='Blues_r')
 plt.title('Total Rainfall Accumulation Over 7 Days', fontsize=14, fontweight='bold')
-# Explicitly format Y label to prevent LaTeX interpretation of plain text units
 plt.xlabel('City')
 plt.ylabel('Total Precipitation (mm)')
 plt.tight_layout()

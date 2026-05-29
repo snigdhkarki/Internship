@@ -1,11 +1,4 @@
-"""
-EDA SUMMARY (Step 8)
-1. The 'users' dataset contains 6 columns: email, id, name, city, age, and salary.
-2. Missing values were checked across all columns to ensure data quality before analysis.
-3. The descriptive statistics provide a baseline for the typical user's compensation and demographics.
-4. Histograms visualize the frequency distribution, showing how spread out the ages and salaries are.
-5. Box plots for 'age' and 'salary' were generated to identify any extreme outliers in user data.
-"""
+#EDA - Exploratory Data Analysis
 
 import sqlite3
 import pandas as pd
@@ -22,8 +15,6 @@ if not os.path.exists(db_name):
     print(f" Error: Could not find '{db_name}'. Please update the variable!")
 else:
     conn = sqlite3.connect(db_name)
-    
-    # Querying the specific table we found
     query = "SELECT * FROM users"
     df = pd.read_sql(query, conn)
     conn.close()
@@ -62,7 +53,6 @@ else:
     # Step 5: Value counts on a categorical column
     # ==========================================
     print("\n--- Step 5: Value Counts ---")
-    # Using 'city' as the categorical column from your table
     print("Value counts for 'city':")
     print(df['city'].value_counts())
 
@@ -70,7 +60,6 @@ else:
     # Step 6: Plot a histogram for every numeric column
     # ==========================================
     print("\n--- Step 6: Histograms ---")
-    # This will automatically grab id, age, and salary
     numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns
 
     plt.figure(figsize=(12, 8))
@@ -85,7 +74,6 @@ else:
     # Step 7: Plot a box plot for at least 2 columns
     # ==========================================
     print("\n--- Step 7: Box Plots ---")
-    # Targeting the meaningful numeric columns based on your screenshot
     cols_to_plot = ['age', 'salary'] 
 
     plt.figure(figsize=(10, 5))
@@ -100,7 +88,6 @@ else:
     # ==========================================
     print("\n--- Bonus Step: Pairplot ---")
     if len(numeric_cols) > 1:
-        # We drop 'id' from the pairplot because graphing IDs usually isn't helpful
         cols_for_pairplot = [col for col in numeric_cols if col != 'id']
         sns.pairplot(df[cols_for_pairplot])
         plt.savefig('bonus_pairplot.png')

@@ -11,7 +11,6 @@ import seaborn as sns
 print("Step 1: Fetching real-world data from REST Countries API...")
 url = "https://restcountries.com/v3.1/all"
 
-# Add a standard browser Header to stop the API from blocking the script
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
@@ -30,10 +29,9 @@ except Exception as e:
 
 parsed_data = []
 
-# If the API succeeds, parse it normally
 if raw_data:
     for country in raw_data:
-        gini_dict = country.get('gini', {})
+        gini_dict = country.get('gini', {}) #if not exist None
         gini_val = list(gini_dict.values())[0] if gini_dict else np.nan
         
         parsed_data.append({
@@ -43,12 +41,12 @@ if raw_data:
             'area': country.get('area', np.nan),
             'gini_index': gini_val
         })
-# SAFETYSWITCH: If the external API is down, auto-generate realistic data so your code runs flawlessly
+
+# SAFETYSWITCH: If the external API is down
 else:
     print("-> Creating synthetic backup data to ensure EDA scripts run without errors.")
     regions = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania']
     for i in range(180):
-        # Generates realistic skewed populations and land masses
         pop = int(np.random.lognormal(mean=15, sigma=2))
         area = float(np.random.lognormal(mean=11, sigma=2.5))
         parsed_data.append({
@@ -59,28 +57,15 @@ else:
             'gini_index': np.random.uniform(25, 60) if i % 3 != 0 else np.nan
         })
 
-# Load into Pandas DataFrame
 df = pd.DataFrame(parsed_data)
 
-# Clean Data: Drop nulls in essential columns and filter out extreme micro-nations
 df.dropna(subset=['population', 'area'], inplace=True)
 df = df[df['population'] > 50000]
 df['pop_density'] = df['population'] / df['area']
 
-# Apply log10 to population and area for visualization
+#for easier comparision
 df['log_population'] = np.log10(df['population'])
 df['log_area'] = np.log10(df['area'].replace(0, 0.1))
-
-print("-> Data cleaned and loaded successfully.\n")
-
-# Clean Data: Drop nulls in essential columns and filter out extreme micro-nations for better charts
-df.dropna(subset=['population', 'area'], inplace=True)
-df = df[df['population'] > 50000] # Focus on established populations
-df['pop_density'] = df['population'] / df['area']
-
-# Apply log10 to population and area for visualization (due to extreme right-skew)
-df['log_population'] = np.log10(df['population'])
-df['log_area'] = np.log10(df['area'].replace(0, 0.1)) # Prevent log(0)
 
 print("-> Data cleaned and loaded successfully.\n")
 
